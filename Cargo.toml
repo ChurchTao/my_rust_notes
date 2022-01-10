@@ -5,5 +5,8 @@ members = [
     "match_test",
     "lib_test",
     "lib_main_test",
-    "collections_test"
+    "collections_test",
+    "file_read",
+    "struct_test",
+    "trait_test"
 ]
