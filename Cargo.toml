@@ -1,5 +1,9 @@
 [workspace]
 members = [
     "guessing_game",
-    "enum_test"
+    "enum_test",
+    "match_test",
+    "lib_test",
+    "lib_main_test",
+    "collections_test"
 ]
