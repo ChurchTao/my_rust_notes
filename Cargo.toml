@@ -8,5 +8,6 @@ members = [
     "collections_test",
     "file_read",
     "struct_test",
-    "trait_test"
+    "trait_test",
+    "cli_func"
 ]
