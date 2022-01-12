@@ -9,5 +9,7 @@ members = [
     "file_read",
     "struct_test",
     "trait_test",
-    "cli_func"
+    "cli_func",
+    "hashmap_test",
+    "t_test"
 ]
