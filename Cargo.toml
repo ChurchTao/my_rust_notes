@@ -11,5 +11,7 @@ members = [
     "trait_test",
     "cli_func",
     "hashmap_test",
-    "t_test"
+    "t_test",
+    "url_htmm2md",
+    "rhttp"
 ]
