@@ -13,5 +13,6 @@ members = [
     "hashmap_test",
     "t_test",
     "url_htmm2md",
-    "rhttp"
+    "rhttp",
+    "mysql_test"
 ]
