@@ -17,7 +17,7 @@ enum Command {
 #[async_std::main]
 #[paw::main]
 async fn main(args: Args) -> anyhow::Result<()> {
-    let pool = MySqlPool::connect(&env::var("DATABASE_URL")?).await?;
+    let pool = MySqlPool::connect("mysql://root:tjc159753!%40%23@zlz.pub:3306/blog?useUnicode=true").await?;
     match args.cmd {
         Some(Command::Add { description }) => {
             println!("Adding new todo with description '{}'", &description);
